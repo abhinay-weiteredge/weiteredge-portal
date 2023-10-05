@@ -16,7 +16,9 @@ app.use(express.json())
 //     console.log('MONGO connected');
 
 // }).catch(error=> console.log(error));
-mongoose.connect('mongodb://localhost:27017/management')
+const URI = "mongodb+srv://aishwarya:wedge123@cluster0.gnwkdjk.mongodb.net/management?retryWrites=true&w=majority"
+
+mongoose.connect(URI)
 
 app.use('/auth', loginRoutes)
 app.use('/user', timeManagementRoutes)
