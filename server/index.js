@@ -16,7 +16,7 @@ app.use(express.json())
 //     console.log('MONGO connected');
 
 // }).catch(error=> console.log(error));
-const URI = "mongodb+srv://aishwarya:wedge123@cluster0.gnwkdjk.mongodb.net/management?retryWrites=true&w=majority"
+const URI = "mongodb+srv://rasta:aiunika123@cluster0.ucoxn7r.mongodb.net/rasta_ai?retryWrites=true&w=majority"
 
 mongoose.connect(URI)
 
